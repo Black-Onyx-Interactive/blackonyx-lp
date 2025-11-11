@@ -1,6 +1,5 @@
 import "./App.css";
 import blackOnyxLogo from "./assets/black-onyx-white-vert.svg";
-import tatauLogo from "./assets/tatau-logo.svg";
 import diceyCrimeLogo from "./assets/dicey_crime_logo.png";
 
 function App() {
@@ -21,7 +20,58 @@ function App() {
 
         {/* Tatau Project */}
         <div className="project">
-          <img src={tatauLogo} alt="Tatau" className="project-logo" />
+          <div
+            className="project-logo"
+            style={{
+              position: "relative",
+              width: "170px",
+              height: "170px",
+              overflow: "hidden",
+              verticalAlign: "middle",
+              WebkitMaskImage:
+                "url('data:image/svg+xml,%0A%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xml%3Aspace%3D%22preserve%22%20viewBox%3D%220%200%20230.5%20230.5%22%3E%0A%20%20%3Cpath%20fill-rule%3D%22evenodd%22%20stroke-linejoin%3D%22round%22%20stroke-miterlimit%3D%221.4%22%20clip-rule%3D%22evenodd%22%20d%3D%22M158.2%20230H64.1a320%20320%200%200%201-7-.1c-5%200-10-.5-15-1.3a50.8%2050.8%200%200%201-14.4-4.8%2048.2%2048.2%200%200%201-21-21%2050.9%2050.9%200%200%201-4.8-14.4%20100.7%20100.7%200%200%201-1.3-15v-7l-.1-8.2V64.1a320%20320%200%200%201%20.1-7c0-5%20.5-10%201.3-15a50.7%2050.7%200%200%201%204.8-14.4%2048.2%2048.2%200%200%201%2021-21%2051%2051%200%200%201%2014.4-4.8c5-.8%2010-1.2%2015-1.3a320%20320%200%200%201%207%200l8.2-.1h94.1a320%20320%200%200%201%207%20.1c5%200%2010%20.5%2015%201.3a52%2052%200%200%201%2014.4%204.8%2048.2%2048.2%200%200%201%2021%2021%2050.9%2050.9%200%200%201%204.8%2014.4c.8%205%201.2%2010%201.3%2015a320%20320%200%200%201%20.1%207v102.3l-.1%207c0%205-.5%2010-1.3%2015a50.7%2050.7%200%200%201-4.8%2014.4%2048.2%2048.2%200%200%201-21%2021%2050.8%2050.8%200%200%201-14.4%204.8c-5%20.8-10%201.2-15%201.3a320%20320%200%200%201-7%200l-8.2.1z%22%2F%3E%0A%3C%2Fsvg%3E%0A')",
+              maskImage:
+                "url('data:image/svg+xml,%0A%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xml%3Aspace%3D%22preserve%22%20viewBox%3D%220%200%20230.5%20230.5%22%3E%0A%20%20%3Cpath%20fill-rule%3D%22evenodd%22%20stroke-linejoin%3D%22round%22%20stroke-miterlimit%3D%221.4%22%20clip-rule%3D%22evenodd%22%20d%3D%22M158.2%20230H64.1a320%20320%200%200%201-7-.1c-5%200-10-.5-15-1.3a50.8%2050.8%200%200%201-14.4-4.8%2048.2%2048.2%200%200%201-21-21%2050.9%2050.9%200%200%201-4.8-14.4%20100.7%20100.7%200%200%201-1.3-15v-7l-.1-8.2V64.1a320%20320%200%200%201%20.1-7c0-5%20.5-10%201.3-15a50.7%2050.7%200%200%201%204.8-14.4%2048.2%2048.2%200%200%201%2021-21%2051%2051%200%200%201%2014.4-4.8c5-.8%2010-1.2%2015-1.3a320%20320%200%200%201%207%200l8.2-.1h94.1a320%20320%200%200%201%207%20.1c5%200%2010%20.5%2015%201.3a52%2052%200%200%201%2014.4%204.8%2048.2%2048.2%200%200%201%2021%2021%2050.9%2050.9%200%200%201%204.8%2014.4c.8%205%201.2%2010%201.3%2015a320%20320%200%200%201%20.1%207v102.3l-.1%207c0%205-.5%2010-1.3%2015a50.7%2050.7%200%200%201-4.8%2014.4%2048.2%2048.2%200%200%201-21%2021%2050.8%2050.8%200%200%201-14.4%204.8c-5%20.8-10%201.2-15%201.3a320%20320%200%200%201-7%200l-8.2.1z%22%2F%3E%0A%3C%2Fsvg%3E%0A')",
+            }}
+          >
+            <img
+              src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/32/48/5a/32485a9f-b143-4dd2-360d-175d181d490e/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/540x540bb.jpg"
+              alt="Tatau (Acesso Antecipado)"
+              style={{
+                width: "100%",
+                height: "100%",
+                objectFit: "contain",
+                maskImage: "var(--app-icon-mask)",
+                WebkitMaskImage: "var(--app-icon-mask)",
+              }}
+            />
+
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 230.5 230.5"
+              style={{
+                position: "absolute",
+                top: 0,
+                left: 0,
+                width: "100%",
+                height: "100%",
+                pointerEvents: "none",
+                boxSizing: "border-box",
+              }}
+            >
+              <path
+                fill="none"
+                stroke="#000"
+                stroke-linejoin="round"
+                stroke-miterlimit="1.4"
+                stroke-opacity=".1"
+                stroke-width="1"
+                d="M158.2 230H64.1a320 320 0 0 1-7-.1c-5 0-10-.5-15-1.3a50.8 50.8 0 0 1-14.4-4.8 48.2 48.2 0 0 1-21-21 50.9 50.9 0 0 1-4.8-14.4 100.7 100.7 0 0 1-1.3-15v-7l-.1-8.2V64.1a320 320 0 0 1 .1-7c0-5 .5-10 1.3-15a50.7 50.7 0 0 1 4.8-14.4 48.2 48.2 0 0 1 21-21 51 51 0 0 1 14.4-4.8c5-.8 10-1.2 15-1.3a320 320 0 0 1 7 0l8.2-.1h94.1a320 320 0 0 1 7 .1c5 0 10 .5 15 1.3a52 52 0 0 1 14.4 4.8 48.2 48.2 0 0 1 21 21 50.9 50.9 0 0 1 4.8 14.4c.8 5 1.2 10 1.3 15a320 320 0 0 1 .1 7v102.3l-.1 7c0 5-.5 10-1.3 15a50.7 50.7 0 0 1-4.8 14.4 48.2 48.2 0 0 1-21 21 50.8 50.8 0 0 1-14.4 4.8c-5 .8-10 1.2-15 1.3a320 320 0 0 1-7 0l-8.2.1z"
+                clip-rule="evenodd"
+                vector-effect="non-scaling-stroke"
+              />
+            </svg>
+          </div>
           <h3 className="project-title">Tatau</h3>
           <p className="project-description">
             Tatau é uma nova plataforma dedicada ao universo da tatuagem. Nesta
@@ -50,12 +100,67 @@ function App() {
           </a>
         </div>
 
+        {/* Union Project */}
+        <div className="project">
+          <div
+            className="project-logo"
+            style={{
+              position: "relative",
+              width: 170,
+              height: 170,
+              overflow: "hidden",
+              verticalAlign: "middle",
+            }}
+          >
+            <img
+              src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/77/93/1d/77931d43-f293-ab27-17e0-03f3138f5b1d/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/540x540bb.jpg"
+              alt="Union - Compras"
+              className="project-logo"
+              style={{
+                width: "100%",
+                height: "100%",
+                objectFit: "contain",
+                borderRadius: "22%",
+              }}
+            />
+          </div>
+          <h3 className="project-title">Union - Compras</h3>
+          <p className="project-description">
+            Inovação nas Compras Coletiva Vitrine virtual que conecta servidores
+            publicos, consumidores com relevante poder aquisitivo, a
+            fornecedores de bens e serviços através de cupons de descontos e
+            atrações publicitarias, impulsionando o comércio local, reduzindo os
+            custos de marketing. Representa uma alternativa que garante
+            benefícios diretos aos trabalhadores e aos empresários.
+          </p>
+          <a
+            href="https://apps.apple.com/br/app/union-compras/id6747625185?itscg=30200&itsct=apps_box_link&mttnsubad=6747625185"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="download-button"
+          >
+            <img
+              src="https://toolbox.marketingtools.apple.com/api/v2/badges/download-on-the-app-store/black/pt-br?releaseDate=1761868800"
+              alt="Download on the App Store"
+              style={{
+                width: 246,
+                height: 82,
+                verticalAlign: "middle",
+                objectFit: "contain",
+              }}
+            />
+          </a>
+        </div>
+
         {/* Crackinho Beat'em Up Project */}
         <div className="project">
           <img
             src={diceyCrimeLogo}
             alt="Crackinho Beat'em up!"
             className="project-logo"
+            style={{
+              height: 200,
+            }}
           />
           <h3 className="project-title">Crackinho Beat'em up!</h3>
           <p className="project-description">
@@ -93,6 +198,7 @@ function App() {
           © {new Date().getFullYear()} Black Onyx Interactive. Todos os direitos
           reservados.
         </p>
+        <p className="footer-text">CNPJ: 48.993.453/0001-92</p>
       </footer>
     </div>
   );
