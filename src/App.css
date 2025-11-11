@@ -1,0 +1,192 @@
+.landing-page {
+  width: 100%;
+  min-height: 100vh;
+}
+
+/* Header */
+.header {
+  padding: 3rem 2rem;
+  text-align: center;
+  background: #1a1a1a;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.main-logo {
+  height: 200px;
+  width: auto;
+  max-width: 90%;
+  margin: auto 0;
+}
+
+/* Our Works Section */
+.our-works {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 4rem 2rem;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 4rem;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+/* Project Cards */
+.project {
+  background: #242424;
+  border-radius: 20px;
+  padding: 3rem;
+  margin-bottom: 3rem;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+}
+
+.project-logo {
+  height: 120px;
+  width: auto;
+  margin: 0 auto 2rem;
+  display: block;
+}
+
+.project-title {
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #ffffff;
+}
+
+.project-description {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  text-align: center;
+  margin-bottom: 2.5rem;
+  color: rgba(255, 255, 255, 0.85);
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Download Buttons */
+.download-button {
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  display: flex;
+}
+
+.button-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.apple-button {
+  background: #000000;
+  color: #ffffff;
+  border: 2px solid #333;
+}
+
+.apple-button:hover {
+  background: #1a1a1a;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+}
+
+.steam-button {
+  background: #1b2838;
+  color: #ffffff;
+  border: 2px solid #66c0f4;
+}
+
+.steam-button:hover {
+  background: #2a475e;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(102, 192, 244, 0.4);
+}
+
+/* Footer */
+.footer {
+  background: #1a1a1a;
+  padding: 2rem;
+  text-align: center;
+  border-top: 1px solid #333;
+}
+
+.footer-text {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 0.9rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .main-logo {
+    height: 150px;
+  }
+
+  .section-title {
+    font-size: 2rem;
+    margin-bottom: 3rem;
+  }
+
+  .project {
+    padding: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .project-logo {
+    height: 80px;
+  }
+
+  .project-title {
+    font-size: 1.5rem;
+  }
+
+  .project-description {
+    font-size: 1rem;
+  }
+
+  .download-button {
+    font-size: 1rem;
+    padding: 0.875rem 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .header {
+    padding: 2rem 1rem;
+  }
+
+  .main-logo {
+    height: 120px;
+  }
+
+  .our-works {
+    padding: 2rem 1rem;
+  }
+
+  .section-title {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .project {
+    padding: 1.5rem;
+  }
+
+  .project-logo {
+    height: 60px;
+  }
+
+  .project-title {
+    font-size: 1.25rem;
+  }
+
+  .project-description {
+    font-size: 0.95rem;
+    line-height: 1.6;
+  }
+}
